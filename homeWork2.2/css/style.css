@@ -20,7 +20,7 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-.container__inner{
+.container__inner {
     width: 30%;
     height: 85%;
 
@@ -30,6 +30,14 @@ body{
     align-items: center;
 
     border: 1px solid #4b4b4b;
+
+    transition: .3s;
+}
+
+.container__inner:hover {
+    margin-bottom: 5px;
+    box-shadow: 0 2px 4px black;
+    rotate: 1deg;
 }
 
 .container__inner-desc{
@@ -52,4 +60,16 @@ body{
     border: 1px solid gray;
 
     background-color: #fdfdfd;
+
+    transition: .3s;
+}
+
+.container__inner-btn:hover {
+    scale: 104%;
+    background-color: #f8f8c0;
+}
+
+.container__inner-btn:active {
+    scale: 98%;
+    background-color: #fdadad;
 }
